@@ -32,7 +32,7 @@ jobs:
           python-version: '3.x'
       - name: Test Python
         run: |
-          cd ../Python && pip install -r requirements.txt && pytest **/*_test.py
+          cd Python && pip install -r requirements.txt && pytest **/*_test.py
 
   automerge:
     needs: build-ci
