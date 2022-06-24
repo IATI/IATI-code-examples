@@ -22,10 +22,9 @@ jobs:
         uses: actions/setup-node@v3.3.0
         with:
           node-version-file: "Javascript/.nvmrc"
-      - run: npm ci
       - name: Test
         run: |
-          cd Javascript &&npm test
+          cd Javascript && npm ci && npm test
 
   automerge:
     needs: build-ci
