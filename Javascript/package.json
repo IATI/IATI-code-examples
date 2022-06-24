@@ -1,0 +1,25 @@
+{
+  "name": "iati-code-examples",
+  "version": "0.0.1",
+  "description": "Example code for interacting with IATI's APIs, tools, and data",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IATI/IATI-code-examples.git"
+  },
+  "keywords": [
+    "iati"
+  ],
+  "author": "Alex Miller",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/IATI/IATI-code-examples/issues"
+  },
+  "homepage": "https://github.com/IATI/IATI-code-examples#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
