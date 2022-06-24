@@ -22,9 +22,17 @@ jobs:
         uses: actions/setup-node@v3.3.0
         with:
           node-version-file: "Javascript/.nvmrc"
-      - name: Test
+      - name: Test Node.js
         run: |
           cd Javascript && npm ci && npm test
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Test Python
+        run: |
+          cd ../Python && pip install -r requirements.txt && pytest **/*_test.py
 
   automerge:
     needs: build-ci
