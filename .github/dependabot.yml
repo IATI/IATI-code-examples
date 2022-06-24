@@ -22,6 +22,8 @@ updates:
   - package-ecosystem: 'pip'
   # Look for `requirements.txt` file in the `Python` directory
     directory: '/Python'
+    schedule:
+      interval: 'daily'
 
   # No support for R yet
   # See https://github.com/dependabot/dependabot-core/issues/2042
