@@ -145,6 +145,7 @@ if(STANDARD=="activity"){
   )
 }
 
+# Load sample data and recode
 sample_data = fromJSON("data/sample.json", simplifyDataFrame = F)$response$docs
 for(i in 1:length(sample_data)){
   row = sample_data[[i]]
