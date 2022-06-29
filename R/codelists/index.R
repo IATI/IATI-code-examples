@@ -149,9 +149,11 @@ if(STANDARD=="activity"){
 sample_data = fromJSON("data/sample.json", simplifyDataFrame = F)$response$docs
 for(i in 1:length(sample_data)){
   row = sample_data[[i]]
-  for(j in 1:length(row)){
+  row_length = length(row)
+  for(j in 1:row_length){
     value_codes = row[[j]]
     field_name = names(row)[j]
+    new_field_name = paste0(field_name, "_recode")
     if(field_name %in% joined_mappings$datastore_name){
       jm_sub = subset(joined_mappings, datastore_name==field_name)
       if(nrow(jm_sub)==1 && is.na(jm_sub$condition_datastore_name)){
@@ -159,7 +161,7 @@ for(i in 1:length(sample_data)){
         cl_sub = subset(codelist_df, codelist==jm_sub$codelist, select=c("code", "name"))
         cl_sub = rbind(cl_sub, data.frame(code="", name=""))
         value_names = merge(data.frame(code=value_codes), cl_sub, by="code")$name
-        sample_data[[i]][[j]] = as.character(value_names)
+        sample_data[[i]][[new_field_name]] = as.character(value_names)
       }else{
         # Conditional
         conditional_datastore_name = unique(jm_sub$condition_datastore_name)
@@ -181,9 +183,11 @@ for(i in 1:length(sample_data)){
           value_code = sample_data[[i]][[j]][[k]]
           value_name = merge(data.frame(code=value_code), cl_sub, by="code")$name
           if(length(value_name) > 0){
-            sample_data[[i]][[j]][[k]] = as.character(value_name)
+            if(!new_field_name %in% names(sample_data[[i]])){
+              sample_data[[i]][[new_field_name]] = sample_data[[i]][[j]]
+            }
+            sample_data[[i]][[new_field_name]][[k]] = as.character(value_name)
           }else{
-            throw()
             warning(paste(value_code, "is not in codelist", jm_sub$codelist))
           }
         }

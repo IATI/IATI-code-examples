@@ -159,6 +159,7 @@ with open("../data/sample.json", "r") as sample_data_file:
                                 value_name = value_name_comp[0]
                             else:
                                 value_name = value_code
+                                print("Warning: {} is not in codelist {}".format(value_code, mapping_subset[0]["codelist"]))
                             if new_field_name not in sample_data[i].keys():
                                 sample_data[i][new_field_name] = sample_data[i][field_name][:]
                             sample_data[i][new_field_name][j] = value_name
