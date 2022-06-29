@@ -195,3 +195,10 @@ for(i in 1:length(sample_data)){
     }
   }
 }
+
+stopifnot(
+  (sample_data[[1]][["country_budget_items_budget_item_code"]] == "5.1.1"),
+  (sample_data[[1]][["country_budget_items_budget_item_code_recode"]] == "Health - policy, planning and administration"),
+  (sample_data[[1]][["dataset_version"]] == "2.03"),
+  (sample_data[[1]][["dataset_version_recode"]] == "2.03")
+)
