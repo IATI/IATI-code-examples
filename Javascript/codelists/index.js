@@ -124,6 +124,7 @@ const main = async () => {
         cl_list_promises.push(axios_promise)
     });
 
+    // Apply codelists to data
     const sample_data = await Promise.all(cl_list_promises).then(() => {
         const sample_data_file = fs.readFileSync('../data/sample.json');
         let sample_data = JSON.parse(sample_data_file).response.docs;

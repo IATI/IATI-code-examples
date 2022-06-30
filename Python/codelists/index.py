@@ -109,6 +109,7 @@ def main():
                 cl_d["name"] = cl_d["code"]
             cl_list.append(cl_d)
 
+    # Apply codelists to data
     with open("../data/sample.json", "r") as sample_data_file:
         sample_data = json.load(sample_data_file)["response"]["docs"]
         for i in range(0, len(sample_data)):
