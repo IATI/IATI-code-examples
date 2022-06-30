@@ -71,9 +71,9 @@ def main():
                 mapping_list.append(mapping_dict)
             else:
                 condition = condition_nodes[0]
-                condition_path = stripAttributePath(path)
+                parent_condition_path = stripAttributePath(path)
                 if condition.startswith(".."):
-                    condition_path = parentPath(condition_path)
+                    parent_condition_path = parentPath(parent_condition_path)
                 conditions = condition.split(" or ")
                 for condition in conditions:
                     condition_attribute = re.findall("@\\w+", condition)[0]
@@ -82,7 +82,7 @@ def main():
                         condition_value = condition_value_match[0].replace("'", "").replace("= ", "")
                     else:
                         condition_value = ""
-                    condition_path = "{}/{}".format(condition_path, condition_attribute)
+                    condition_path = "{}/{}".format(parent_condition_path, condition_attribute)
                     mapping_dict = {
                         "path": path,
                         "codelist": codelist,
@@ -90,8 +90,6 @@ def main():
                         "condition_datastore_name": convertNameToCanonical(condition_path),
                         "condition_value": condition_value
                     }
-                    if path == "//iati-activities/@version":
-                        mapping_dict["datastore_name"] = "dataset_version" # Special case
                     mapping_list.append(mapping_dict)
 
 
@@ -126,20 +124,20 @@ def main():
                         codelist_subset = [codelist_item for codelist_item in cl_list if codelist_item["codelist"] == mapping_subset[0]["codelist"]]
                         codelist_subset.append({"code": "", "name": ""})
                         value_names = list()
-                        if type(value_codes) is list:
-                            for value_code in value_codes:
-                                value_name_comp = [cl_item["name"] for cl_item in codelist_subset if cl_item["code"] == value_code]
-                                if value_name_comp:
-                                    value_names.append(value_name_comp[0])
-                                else:
-                                    value_names.append(value_code)
-                        else:
-                            value_name_comp = [cl_item["name"] for cl_item in codelist_subset if cl_item["code"] == value_codes]
+                        value_codes_type = type(value_codes)
+                        if value_codes_type is not list:
+                            value_codes = [value_codes]
+                        for value_code in value_codes:
+                            value_name_comp = [cl_item["name"] for cl_item in codelist_subset if cl_item["code"] == value_code]
                             if value_name_comp:
-                                value_names = value_name_comp[0]
+                                value_names.append(value_name_comp[0])
                             else:
-                                value_names = value_code
-                        sample_data[i][new_field_name] = value_names
+                                value_names.append(value_code)
+                                print("Warning: {} is not in codelist {}".format(value_code, mapping_subset[0]["codelist"]))
+                        if value_codes_type is list:
+                            sample_data[i][new_field_name] = value_names
+                        else:
+                            sample_data[i][new_field_name] = value_names[0]
                     else:
                         # Conditional
                         conditional_datastore_name = mapping_subset[0]["condition_datastore_name"]
@@ -147,6 +145,11 @@ def main():
                             cond_compare_values = row[conditional_datastore_name]
                         except KeyError:
                             cond_compare_values = [""] * len(row[field_name])
+                        if type(cond_compare_values) is not list:
+                            cond_compare_values = [cond_compare_values]
+                        original_type = type(row[field_name])
+                        if original_type is not list:
+                            row[field_name] = [row[field_name]]
                         for j in range(0, len(cond_compare_values)):
                             cond_compare_value = cond_compare_values[j]
                             mapping_subset = [mapping for mapping in mapping_subset if mapping["condition_value"] == cond_compare_value]
@@ -160,9 +163,12 @@ def main():
                                 else:
                                     value_name = value_code
                                     print("Warning: {} is not in codelist {}".format(value_code, mapping_subset[0]["codelist"]))
-                                if new_field_name not in sample_data[i].keys():
-                                    sample_data[i][new_field_name] = sample_data[i][field_name][:]
-                                sample_data[i][new_field_name][j] = value_name
+                                if original_type is list:
+                                    if new_field_name not in sample_data[i].keys():
+                                        sample_data[i][new_field_name] = sample_data[i][field_name][:]
+                                    sample_data[i][new_field_name][j] = value_name
+                                else:
+                                    sample_data[i][new_field_name] = value_name
     return sample_data
 
 if __name__ == '__main__':

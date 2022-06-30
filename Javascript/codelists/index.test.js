@@ -1,5 +1,10 @@
-const sum = require('./index');
+const main = require('./index');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('sample data values to be recoded', async () => {
+    await main().then((sample_data) => {
+        expect(sample_data[0]["country_budget_items_budget_item_code"][0]).toBe("5.1.1");
+        expect(sample_data[0]["country_budget_items_budget_item_code_recode"][0]).toBe("Health - policy, planning and administration");
+        expect(sample_data[0]["dataset_version"]).toBe("2.03");
+        expect(sample_data[0]["dataset_version_recode"]).toBe("2.03");
+    });
 });
