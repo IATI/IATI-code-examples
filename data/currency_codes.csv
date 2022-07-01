@@ -1,0 +1,229 @@
+iso_a3,iso_a2,country_name,currency,cc
+AFG,AF,Afghanistan,Afghan Afghani,AFN
+ALB,AL,Albania,Albanian lek,ALL
+ABW,AW,Aruba,Aruban Florin,AWG
+DZA,DZ,Algeria,Algerian dinar,DZD
+AGO,AO,Angola,Angolan kwanza,AOA
+ARG,AR,Argentina,Argentine peso,ARS
+ARM,AM,Armenia,Armenian dram,AMD
+AUS,AU,Australia,Australian dollar,AUD
+KIR,KI,Kiribati,Australian dollar,AUD
+NRU,NR,Nauru,Australian dollar,AUD
+TUV,TV,Tuvalu,Australian dollar,AUD
+AZE,AZ,Azerbaijan,Azerbaijan manat,AZN
+BHS,BS,Bahamas (the),Bahamian dollar,BSD
+BHR,BH,Bahrain,Bahrain dinar,BHD
+BGD,BD,Bangladesh,Bangladesh taka,BDT
+BRB,BB,Barbados,Barbados dollar,BBD
+BLR,BY,Belarus,Belarusian rubel,BYN
+BLZ,BZ,Belize,Belize dollar,BZD
+BTN,BT,Bhutan,Bhutanese ngultrum,BTN
+BOL,BO,Bolivia (Plurinational State of),Bolivian boliviano,BOB
+BWA,BW,Botswana,Botswana pula,BWP
+BRA,BR,Brazil,Brazilian real,BRL
+BRN,BN,Brunei Darussalam,Brunei dollar,BND
+BGR,BG,Bulgaria,Bulgarian lev,BGN
+BDI,BI,Burundi,Burundi franc,BIF
+CPV,CV,Cabo Verde,Cabo Verde escudo,CVE
+KHM,KH,Cambodia,Cambodian riel,KHR
+CAN,CA,Canada,Canadian dollar,CAD
+CMR,CM,Cameroon,CFA franc,XAF
+CAF,CF,Central African Republic (the),CFA franc,XAF
+TCD,TD,Chad,CFA franc,XAF
+COG,CG,Congo (the),CFA franc,XAF
+GNQ,GQ,Equatorial Guinea,CFA franc,XAF
+GAB,GA,Gabon,CFA franc,XAF
+BEN,BJ,Benin,CFA franc,XOF
+BFA,BF,Burkina Faso,CFA franc,XOF
+CIV,CI,Côte d'Ivoire,CFA franc,XOF
+GNB,GW,Guinea-Bissau,CFA franc,XOF
+MLI,ML,Mali,CFA franc,XOF
+NER,NE,Niger (the),CFA franc,XOF
+SEN,SN,Senegal,CFA franc,XOF
+TGO,TG,Togo,CFA franc,XOF
+CHL,CL,Chile,Chilean peso,CLP
+CHN,CN,China,Chinese yuan,CNY
+COL,CO,Colombia,Colombian peso,COP
+COM,KM,Comoros (the),Comorian franc,KMF
+COD,CD,Congo (the Democratic Republic of the),Congo franc,CDF
+BIH,BA,Bosnia and Herzegovina,Convertible marka,BAM
+CRI,CR,Costa Rica,Costa Rican colón,CRC
+HRV,HR,Croatia,Croatian kuna,HRK
+CZE,CZ,Czechia,Czech koruna,CZK
+DNK,DK,Denmark,Danish krone,DKK
+DJI,DJ,Djibouti,Djibouti franc,DJF
+DOM,DO,Dominican Republic (the),Dominican peso,DOP
+ATG,AG,Antigua and Barbuda,Eastern Caribbean dollar,XCD
+DMA,DM,Dominica,Eastern Caribbean dollar,XCD
+GRD,GD,Grenada,Eastern Caribbean dollar,XCD
+KNA,KN,Saint Kitts and Nevis,Eastern Caribbean dollar,XCD
+LCA,LC,Saint Lucia,Eastern Caribbean dollar,XCD
+VCT,VC,Saint Vincent and the Grenadines,Eastern Caribbean dollar,XCD
+EGY,EG,Egypt,Egyptian pound,EGP
+ERI,ER,Eritrea,Eritrean nakfa,ERN
+ETH,ET,Ethiopia,Ethiopian birr,ETB
+AUT,AT,Austria,Euro,EUR
+BEL,BE,Belgium,Euro,EUR
+CYP,CY,Cyprus,Euro,EUR
+EST,EE,Estonia,Euro,EUR
+FIN,FI,Finland,Euro,EUR
+FRA,FR,France,Euro,EUR
+DEU,DE,Germany,Euro,EUR
+GRC,GR,Greece,Euro,EUR
+IRL,IE,Ireland,Euro,EUR
+ITA,IT,Italy,Euro,EUR
+KOS,XK,Kosovo,Euro,EUR
+LUX,LU,Luxembourg,Euro,EUR
+MLT,MT,Malta,Euro,EUR
+MNE,ME,Montenegro,Euro,EUR
+NLD,NL,Netherlands (the),Euro,EUR
+PRT,PT,Portugal,Euro,EUR
+SMR,SM,San Marino,Euro,EUR
+SVK,SK,Slovakia,Euro,EUR
+SVN,SI,Slovenia,Euro,EUR
+ESP,ES,Spain,Euro,EUR
+FJI,FJ,Fiji,Fiji dollar,FJD
+GMB,GM,Gambia (the),Gambian dalasi,GMD
+GEO,GE,Georgia,Georgian lari,GEL
+GHA,GH,Ghana,Ghanaian cedi,GHS
+GTM,GT,Guatemala,Guatemalan quetzal,GTQ
+GIN,GN,Guinea,Guinean franc,GNF
+GUY,GY,Guyana,Guyana dollar,GYD
+HTI,HT,Haiti,Haitian gourde,HTG
+HND,HN,Honduras,Honduran lempira,HNL
+HKG,HK,Hong Kong,Hong Kong dollar,HKD
+HUN,HU,Hungary,Hungarian forint,HUF
+ISL,IS,Iceland,Icelandic króna,ISK
+IND,IN,India,Indian rupee,INR
+IDN,ID,Indonesia,Indonesian rupiah,IDR
+IRN,IR,Iran (Islamic Republic of),Iranian rial,IRR
+IRQ,IQ,Iraq,Iraqi dinar ,IQD
+ISR,IL,Israel,Israeli shekel,ILS
+JAM,JM,Jamaica,Jamaica dollar,JMD
+JPN,JP,Japan,Japanese yen,JPY
+JOR,JO,Jordan,Jordanian dinar,JOD
+KAZ,KZ,Kazakhstan,Kazakhstani tenge,KZT
+KEN,KE,Kenya,Kenya shilling,KES
+KOR,KR,Korea (the Republic of),Korean won,KRW
+KWT,KW,Kuwait,Kuwaiti dinar,KWD
+KGZ,KG,Kyrgyzstan,Kyrgyz som,KGS
+LAO,LA,Lao People's Democratic Republic (the),Lao kip,LAK
+LVA,LV,Latvia,Latvian lats,LVL
+LBN,LB,Lebanon,Lebanese pound,LBP
+LSO,LS,Lesotho,Lesotho loti,LSL
+LBY,LY,Libya,Libyan dinar,LYD
+LTU,LT,Lithuania,Lithuanian litas,LTL
+MAC,MO,Macao,Macanese pataca,MOP
+MKD,MK,North Macedonia,Macedonian denar,MKD
+MDG,MG,Madagascar,Malagasy ariary,MGA
+MWI,MW,Malawi,Malawi kwacha,MWK
+MYS,MY,Malaysia,Malaysian ringgit,MYR
+MDV,MV,Maldives,Maldivian rufiyaa,MVR
+MRT,MR,Mauritania,Mauritanian ouguiya,MRU
+MUS,MU,Mauritius,Mauritian rupee,MUR
+MEX,MX,Mexico,Mexican peso,MXN
+MDA,MD,Moldova (the Republic of),Moldovan leu,MDL
+MNG,MN,Mongolia,Mongolian togrog,MNT
+MAR,MA,Morocco,Moroccan dirham,MAD
+MOZ,MZ,Mozambique,Mozambican metical,MZN
+MMR,MM,Myanmar,Myanmar kyat,MMK
+NAM,NA,Namibia,Namibia dollar,NAD
+NPL,NP,Nepal,Nepalese rupee,NPR
+TWN,TW,Taiwan (Province of China),New Taiwan dollar,TWD
+TKM,TM,Turkmenistan,New Turkmen manat,TMT
+NZL,NZ,New Zealand,New Zealand dollar,NZD
+NIC,NI,Nicaragua,Nicaraguan córdoba,NIO
+NGA,NG,Nigeria,Nigerian naira,NGN
+NOR,NO,Norway,Norwegian krone,NOK
+OMN,OM,Oman,Omani rial,OMR
+PAK,PK,Pakistan,Pakistan rupee,PKR
+PNG,PG,Papua New Guinea,Papua New Guinea kina,PGK
+PRY,PY,Paraguay,Paraguayan guaraní,PYG
+PER,PE,Peru,Peruvian nuevo sol,PEN
+PHL,PH,Philippines (the),Philippine peso,PHP
+POL,PL,Poland,Polish zloty,PLN
+GBR,GB,United Kingdom of Great Britain and Northern Ireland (the),Pound sterling,GBP
+QAT,QA,Qatar,Qatari riyal,QAR
+ROU,RO,Romania,Romanian leu,RON
+RUS,RU,Russian Federation (the),Russian ruble,RUB
+RWA,RW,Rwanda,Rwanda franc,RWF
+WSM,WS,Samoa,Samoa tala,WST
+STP,ST,Sao Tome and Principe,São Tomé and Príncipe dobra,STN
+SAU,SA,Saudi Arabia,Saudi Arabian riyal,SAR
+SRB,RS,Serbia,Serbian dinar,RSD
+SYC,SC,Seychelles,Seychelles rupee,SCR
+SLE,SL,Sierra Leone,Sierra Leonean leone,SLL
+SGP,SG,Singapore,Singapore dollar,SGD
+SOM,SO,Somalia,Somali shilling,SOS
+SLB,SB,Solomon Islands,Solomon Islands dollar,SBD
+ZAF,ZA,South Africa,South African rand,ZAR
+SSD,SS,South Sudan,South Sudanese pound,SSP
+LKA,LK,Sri Lanka,Sri Lanka rupee,LKR
+SDN,SD,Sudan (the),Sudanese pound,SDG
+SUR,SR,Suriname,Surinamese dollar,SRD
+SWZ,SZ,Eswatini,Swaziland lilangeni,SZL
+SWE,SE,Sweden,Swedish krona,SEK
+CHE,CH,Switzerland,Swiss franc,CHF
+SYR,SY,Syrian Arab Republic (the),Syrian pound,SYP
+TJK,TJ,Tajikistan,Tajik somoni,TJS
+TZA,TZ,"Tanzania, the United Republic of",Tanzania shilling,TZS
+THA,TH,Thailand,Thai baht,THB
+TON,TO,Tonga,Tongan pa’anga,TOP
+TTO,TT,Trinidad and Tobago,Trinidad and Tobago dollar,TTD
+TUN,TN,Tunisia,Tunisian dinar,TND
+TUR,TR,Turkey,Turkish lira,TRY
+ARE,AE,United Arab Emirates (the),U.A.E. dirham,AED
+ECU,EC,Ecuador,U.S. dollar,USD
+SLV,SV,El Salvador,U.S. dollar,USD
+LBR,LR,Liberia,U.S. dollar,USD
+MHL,MH,Marshall Islands (the),U.S. dollar,USD
+FSM,FM,Micronesia (Federated States of),U.S. dollar,USD
+PLW,PW,Palau,U.S. dollar,USD
+PAN,PA,Panama,U.S. dollar,USD
+PRI,PR,Puerto Rico,U.S. dollar,USD
+TLS,TL,Timor-Leste,U.S. dollar,USD
+USA,US,United States of America (the),U.S. dollar,USD
+ZWE,ZW,Zimbabwe,U.S. dollar,USD
+UGA,UG,Uganda,Uganda shilling,UGX
+UKR,UA,Ukraine,Ukrainian hryvnia,UAH
+URY,UY,Uruguay,Uruguayan peso,UYU
+UZB,UZ,Uzbekistan,Uzbek sum,UZS
+VUT,VU,Vanuatu,Vanuatu vatu,VUV
+VEN,VE,Venezuela (Bolivarian Republic of),Venezuelan bolívar fuerte,VES
+VNM,VN,Viet Nam,Vietnamese dong,VND
+YEM,YE,Yemen,Yemeni rial,YER
+ZMB,ZM,Zambia,Zambian kwacha,ZMW
+,1C_355,Curacao & St. Maarten,,
+,1C_459,"Yemen, P.D. Rep.",,
+,1C_473,Yemen Arab Rep.,,
+,5X,CEMAC,,
+,5Y,Eastern Caribbean Currency Union,,
+,7A,WAEMU (West African Economic and Monetary Union),,
+,AD,Andorra,,
+,AI,Anguilla,,
+,AN,Netherlands Antilles,,
+,BM,Bermuda,,
+,CSH,Former Czechoslovakia,,
+,CU,Cuba,,
+,CW,Curacao,,
+,DE2,East Germany,,
+,FO,Faroe Islands,,
+,GF,French Guiana,,
+,GG,Guernsey,,
+,GI,Gibraltar,,
+,GL,Greenland,,
+,GP,Guadeloupe,,
+,IM,Isle of Man,,
+,JE,Jersey,,
+,KY,Cayman Islands,,
+,MQ,Martinique,,
+,MS,Montserrat,,
+,NC,New Caledonia,,
+,PF,French Polynesia,,
+,PM,Saint Pierre and Miquelon,,
+,R1,Belgo-Luxembourg Economic Union,,
+,RE,Reunion,,
+,SUH,Former U.S.S.R.,,
+,SX,Sint Maarten (Dutch part),,
+,U2,Euro area (Member States and Institutions of the Euro Area) changing composition,,
+,YUC,Former Yugoslavia,,
