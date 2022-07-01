@@ -4,7 +4,12 @@ Here you'll find a small selection of code examples written to make use of IATI'
 
 Our code examples include:
 
-- Applying codelist names to numerical codes
-  - [Javascript](/Javascript/codelists/index.js)
-  - [Python](/Python/codelists/index.py)
-  - [R](/R/codelists/index.R)
+## Applying codelist names to numerical codes
+
+One common operation required to make semantic use of IATI data is the transformation of machine-readable codes into human-readable names. Below are some examples of how to make these transformations. These examples assume you're already familiar with the IATI Datastore API; if not, please see the documentation on the IATI API Gateway: [https://developer.iatistandard.org/](https://developer.iatistandard.org/).
+
+We have examples of how to download our codelist mappings, download all codelists, and match code values downloaded from the Datastore in JSON to their codelist names in the following languages:
+
+- [Javascript](/Javascript/codelists/index.js)
+- [Python](/Python/codelists/index.py)
+- [R](/R/codelists/index.R)
