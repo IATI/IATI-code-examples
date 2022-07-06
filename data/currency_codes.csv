@@ -27,20 +27,20 @@ BDI,BI,Burundi,Burundi franc,BIF
 CPV,CV,Cabo Verde,Cabo Verde escudo,CVE
 KHM,KH,Cambodia,Cambodian riel,KHR
 CAN,CA,Canada,Canadian dollar,CAD
-CMR,CM,Cameroon,CFA franc,XAF
-CAF,CF,Central African Republic (the),CFA franc,XAF
-TCD,TD,Chad,CFA franc,XAF
-COG,CG,Congo (the),CFA franc,XAF
-GNQ,GQ,Equatorial Guinea,CFA franc,XAF
-GAB,GA,Gabon,CFA franc,XAF
-BEN,BJ,Benin,CFA franc,XOF
-BFA,BF,Burkina Faso,CFA franc,XOF
-CIV,CI,Côte d'Ivoire,CFA franc,XOF
-GNB,GW,Guinea-Bissau,CFA franc,XOF
-MLI,ML,Mali,CFA franc,XOF
-NER,NE,Niger (the),CFA franc,XOF
-SEN,SN,Senegal,CFA franc,XOF
-TGO,TG,Togo,CFA franc,XOF
+CMR,CM,Cameroon,Central African CFA franc,XAF
+CAF,CF,Central African Republic (the),Central African CFA franc,XAF
+TCD,TD,Chad,Central African CFA franc,XAF
+COG,CG,Congo (the),Central African CFA franc,XAF
+GNQ,GQ,Equatorial Guinea,Central African CFA franc,XAF
+GAB,GA,Gabon,Central African CFA franc,XAF
+BEN,BJ,Benin,West African CFA franc,XOF
+BFA,BF,Burkina Faso,West African CFA franc,XOF
+CIV,CI,Côte d'Ivoire,West African CFA franc,XOF
+GNB,GW,Guinea-Bissau,West African CFA franc,XOF
+MLI,ML,Mali,West African CFA franc,XOF
+NER,NE,Niger (the),West African CFA franc,XOF
+SEN,SN,Senegal,West African CFA franc,XOF
+TGO,TG,Togo,West African CFA franc,XOF
 CHL,CL,Chile,Chilean peso,CLP
 CHN,CN,China,Chinese yuan,CNY
 COL,CO,Colombia,Colombian peso,COP
@@ -193,37 +193,37 @@ VEN,VE,Venezuela (Bolivarian Republic of),Venezuelan bolívar fuerte,VES
 VNM,VN,Viet Nam,Vietnamese dong,VND
 YEM,YE,Yemen,Yemeni rial,YER
 ZMB,ZM,Zambia,Zambian kwacha,ZMW
-,1C_355,Curacao & St. Maarten,,
-,1C_459,"Yemen, P.D. Rep.",,
-,1C_473,Yemen Arab Rep.,,
-,5X,CEMAC,,
-,5Y,Eastern Caribbean Currency Union,,
-,7A,WAEMU (West African Economic and Monetary Union),,
-,AD,Andorra,,
-,AI,Anguilla,,
-,AN,Netherlands Antilles,,
-,BM,Bermuda,,
-,CSH,Former Czechoslovakia,,
-,CU,Cuba,,
-,CW,Curacao,,
-,DE2,East Germany,,
-,FO,Faroe Islands,,
-,GF,French Guiana,,
-,GG,Guernsey,,
-,GI,Gibraltar,,
-,GL,Greenland,,
-,GP,Guadeloupe,,
-,IM,Isle of Man,,
-,JE,Jersey,,
-,KY,Cayman Islands,,
-,MQ,Martinique,,
-,MS,Montserrat,,
-,NC,New Caledonia,,
-,PF,French Polynesia,,
-,PM,Saint Pierre and Miquelon,,
-,R1,Belgo-Luxembourg Economic Union,,
-,RE,Reunion,,
-,SUH,Former U.S.S.R.,,
-,SX,Sint Maarten (Dutch part),,
-,U2,Euro area (Member States and Institutions of the Euro Area) changing composition,,
-,YUC,Former Yugoslavia,,
+,1C_355,Curacao & St. Maarten,Netherlands Antillean Guilder,ANG
+YEM,1C_459,"Yemen, P.D. Rep.",South Yemeni dinar,YDD
+YEM,1C_473,Yemen Arab Rep.,North Yemeni rial,YER
+,5X,CEMAC,Central African CFA franc,XAF
+,5Y,Eastern Caribbean Currency Union,Eastern Caribbean dollar,XCD
+,7A,WAEMU (West African Economic and Monetary Union),West African CFA franc,XOF
+AND,AD,Andorra,Euro,EUR
+AIA,AI,Anguilla,Eastern Caribbean dollar,XCD
+,AN,Netherlands Antilles,Netherlands Antillean Guilder,ANG
+BMU,BM,Bermuda,Bermudian Dollar,BMD
+,CSH,Former Czechoslovakia,Czechoslovak koruna,CSK
+CUB,CU,Cuba,Cuban Peso,CUC
+CUW,CW,Curacao,Netherlands Antillean Guilder,ANG
+,DE2,East Germany,East German mark,DDM
+FRO,FO,Faroe Islands,Danish Krone,DKK
+GUF,GF,French Guiana,Euro,EUR
+GGY,GG,Guernsey,Pound sterling,GBP
+GIB,GI,Gibraltar,Pound sterling,GBP
+GRL,GL,Greenland,Danish Krone,DKK
+GLP,GP,Guadeloupe,Euro,EUR
+IMN,IM,Isle of Man,Pound sterling,GBP
+JEY,JE,Jersey,Pound sterling,GBP
+CYM,KY,Cayman Islands,Cayman Islands Dollar,KYD
+MTQ,MQ,Martinique,Euro,EUR
+MSR,MS,Montserrat,Eastern Caribbean dollar,XCD
+NCL,NC,New Caledonia,CFP Franc,XPF
+PYF,PF,French Polynesia,CFP Franc,XPF
+SPM,PM,Saint Pierre and Miquelon,Euro,EUR
+,R1,Belgo-Luxembourg Economic Union,Belgian franc,BEF
+REU,RE,Reunion,Euro,EUR
+SXM,SUH,Former U.S.S.R.,Soviet Ruble,SUR
+,SX,Sint Maarten (Dutch part),Netherlands Antillean Guilder,ANG
+,U2,Euro area (Member States and Institutions of the Euro Area) changing composition,Euro,EUR
+,YUC,Former Yugoslavia,Yugoslav dinar,YUM
