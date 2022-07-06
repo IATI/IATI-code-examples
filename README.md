@@ -13,3 +13,13 @@ We have examples of how to download our codelist mappings, download all codelist
 - [Javascript](/Javascript/codelists/index.js)
 - [Python](/Python/codelists/index.py)
 - [R](/R/codelists/index.R)
+
+## Converting currencies
+
+Another common operation required to make IATI data comparable is the conversion to a common currency. IATI does not have one official source for exchange rates, but in the data folder of this repository you'll find a sample of daily exchange rates sourced from the IMF from January 1, 1994 to July 6, 2022. As the sample data we're using comes from the Datastore, all fields required are already in the correct data types, and conversion is a simple matter of looking up the appropriate rate and multiplying.
+
+We have examples of how to convert currencies for transactions and budgets available in the following languages:
+
+- [Javascript](/Javascript/currency/index.js)
+- [Python](/Python/currency/index.py)
+- [R](/R/currency/index.R)
