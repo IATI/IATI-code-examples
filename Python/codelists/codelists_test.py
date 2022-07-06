@@ -1,4 +1,4 @@
-from index import main
+from codelists import main
 import pytest
 
 
@@ -12,7 +12,7 @@ def _request_sample_data(request, sample_data):
     request.cls._sample_data = sample_data
 
 
-class TestMain:
+class TestCodelistMain:
     @pytest.mark.parametrize(
         ('x', 'y', 'data_type'),
         [

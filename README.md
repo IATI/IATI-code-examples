@@ -11,7 +11,7 @@ One common operation required to make semantic use of IATI data is the transform
 We have examples of how to download our codelist mappings, download all codelists, and match code values downloaded from the Datastore in JSON to their codelist names in the following languages:
 
 - [Javascript](/Javascript/codelists/index.js)
-- [Python](/Python/codelists/index.py)
+- [Python](/Python/codelists/codelists.py)
 - [R](/R/codelists/index.R)
 
 ## Converting currencies
@@ -21,5 +21,5 @@ Another common operation required to make IATI data comparable is the conversion
 We have examples of how to convert currencies for transactions and budgets available in the following languages:
 
 - [Javascript](/Javascript/currency/index.js)
-- [Python](/Python/currency/index.py)
+- [Python](/Python/currency/currency.py)
 - [R](/R/currency/index.R)
