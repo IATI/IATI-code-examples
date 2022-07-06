@@ -99,5 +99,5 @@ stopifnot(
   (transactions[[70]][["transaction_value"]] == 200000),
   (transactions[[70]][["transaction_value_usd"]] == 286800),
   (budgets[[30]][["budget_value"]] == 200000),
-  (round(budgets[[30]][["budget_value_usd"]]) == 282940)
+  (budgets[[30]][["budget_value_usd"]] == 282940)
 )
