@@ -1,7 +1,6 @@
 const libxml = require("libxmljs2");
 const axios = require("axios");
 const fs = require("fs");
-const { join } = require('path')
 
 // Set version to 2.03 and language to English
 const VERSION = "2.03";
