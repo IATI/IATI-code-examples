@@ -1,7 +1,7 @@
 const main = require("./index");
 
 test("sample data values to be recoded", async () => {
-  await main().then((sample_data) => {
+  await main('../data/sample.json').then((sample_data) => {
     expect(sample_data[0]["country_budget_items_budget_item_code"][0]).toBe(
       "5.1.1"
     );

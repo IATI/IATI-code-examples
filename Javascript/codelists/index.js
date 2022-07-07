@@ -1,6 +1,7 @@
 const libxml = require("libxmljs2");
 const axios = require("axios");
 const fs = require("fs");
+const { join } = require('path')
 
 // Set version to 2.03 and language to English
 const VERSION = "2.03";
@@ -44,7 +45,7 @@ const parentPath = (xpath, generations = 1) => {
   return split_xpath.join("/");
 };
 
-const main = async () => {
+const main = async (filePath) => {
   // Pull in codelist mapping in XML
   const mapping_list = [];
   const mapping_url = `https://raw.githubusercontent.com/IATI/IATI-Codelists/version-${VERSION}/mapping.xml`;
@@ -135,7 +136,7 @@ const main = async () => {
 
   // Apply codelists to data
   const sample_data = await Promise.all(cl_list_promises).then(() => {
-    const sample_data_file = fs.readFileSync("../data/sample.json");
+    const sample_data_file = fs.readFileSync(filePath);
     let sample_data = JSON.parse(sample_data_file).response.docs;
     sample_data.forEach((row, i) => {
       const field_names = Object.keys(row);
