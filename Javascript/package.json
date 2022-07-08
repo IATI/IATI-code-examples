@@ -4,6 +4,7 @@
   "description": "Example code for interacting with IATI's APIs, tools, and data",
   "main": "index.js",
   "scripts": {
+    "codelists": "node index.js codelists ../data/sample.json",
     "test": "jest"
   },
   "repository": {
