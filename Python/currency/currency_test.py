@@ -4,7 +4,10 @@ import pytest
 
 @pytest.fixture(scope='module')
 def sample_currency_data():
-    return main()
+    return {
+        "transactions": main("../data/sample_transactions.json", "transaction"),
+        "budgets": main("../data/sample_budgets.json", "budget")
+    }
 
 
 @pytest.fixture(autouse=True, scope='class')

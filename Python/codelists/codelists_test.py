@@ -4,7 +4,7 @@ import pytest
 
 @pytest.fixture(scope='module')
 def sample_data():
-    return main()
+    return main("../data/sample.json")
 
 
 @pytest.fixture(autouse=True, scope='class')

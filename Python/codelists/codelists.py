@@ -40,7 +40,7 @@ def parentPath(xpath, generations=1):
     split_xpath = split_xpath[0:(-1 * generations)]
     return "/".join(split_xpath)
 
-def main():
+def main(file_path):
     # Pull in codelist mapping in XML
     mapping_list = list()
     mapping_url = "https://raw.githubusercontent.com/IATI/IATI-Codelists/version-{}/mapping.xml".format(VERSION)
@@ -110,7 +110,7 @@ def main():
             cl_list.append(cl_d)
 
     # Apply codelists to data
-    with open("../data/sample.json", "r") as sample_data_file:
+    with open(file_path, "r") as sample_data_file:
         sample_data = json.load(sample_data_file)["response"]["docs"]
         for i in range(0, len(sample_data)):
             row = sample_data[i]
@@ -173,4 +173,4 @@ def main():
     return sample_data
 
 if __name__ == '__main__':
-    main()
+    main("../data/sample.json")
