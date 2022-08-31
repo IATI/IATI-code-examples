@@ -16,8 +16,8 @@ class TestCodelistMain:
     @pytest.mark.parametrize(
         ('x', 'y', 'data_type'),
         [
-            ("country_budget_items_budget_item_code", "5.1.1", "list"),
-            ("country_budget_items_budget_item_code_recode", "Health - policy, planning and administration", "list"),
+            ("transaction_provider_org_type", "60", "list"),
+            ("transaction_provider_org_type_recode", "Foundation", "list"),
             ("dataset_version", "2.03", "str"),
             ("dataset_version_recode", "2.03", "str"),
         ]
