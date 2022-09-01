@@ -40,6 +40,8 @@ recursiveJsonNest = function(element, output){
 root = xmlRoot(xmlParse("data/sample.xml"))
 output = recursiveJsonNest(root, list())
 
+jsonString = toJSON(output,pretty=TRUE,auto_unbox=TRUE)
+
 
 stopifnot(
   (output[['iati-activities']][[1]][['iati-activity']][[1]][['iati-identifier']][[1]][['text()']] == 'DAC-1601-INV-003731'),
