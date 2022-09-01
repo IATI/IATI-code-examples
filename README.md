@@ -37,3 +37,4 @@ We have examples of how to convert IATI XML into nested JSON objects available i
 
 - [Javascript](/Javascript/xml_to_json/index.js)
 - [Python](/Python/xml_to_json/xml_to_json.py)
+- [R](/R/xml_to_json/index.R)

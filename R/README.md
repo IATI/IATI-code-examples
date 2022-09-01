@@ -12,4 +12,5 @@ Download and install R:
 ```
 Rscript codelists/index.R
 Rscript currency/index.R
+Rscript xml_to_json/index.R
 ```
