@@ -29,9 +29,9 @@ We have examples of how to convert currencies for transactions and budgets avail
 - [Python](/Python/currency/currency.py)
 - [R](/R/currency/index.R)
 
-## Converting IATI XML into nested JSON objects
+## Converting IATI XML into nested JSON objects (deprecated as of [IATI Unified Platform Refresher v2.5.0](https://github.com/IATI/refresher/releases/tag/v2.5.0))
 
-For complex data queries, you may find yourself needing to keep sub-element values together instead of using the flattened arrays provided by the Datastore API. The best way to do this is to request the `iati_xml` field from SOLR (or download the XML format from a query from Datastore Search), and use the IATI XML. However, since not all developers are familiar with XML, first converting the hierarchical IATI XML to a nested JSON object may help.
+Note: This functionality has been fully replicated within the IATI Unified Platform, and may now be accessed without additional processing by the `/iati_json` endpoint of the Datastore API. Full documentation is available on the [IATI Developer Platform](https://developer.iatistandard.org/api-details#api=datastore).
 
 We have examples of how to convert IATI XML into nested JSON objects available in the following languages:
 
