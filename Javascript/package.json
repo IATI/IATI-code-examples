@@ -24,7 +24,7 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
-    "axios": "^1.6.2",
+    "axios": "^1.6.3",
     "libxmljs2": "^0.32.0"
   }
 }
